@@ -1,6 +1,6 @@
 ## Created by Bfreitas Contact for help####
 ###Envoke Via CMD###
-# powershell -command "iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/bfreitasdtiq/DTIQ-Scripts/main/DTIQ-360installer.PS1'))" 
+# powershell -command "iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/bfreitasdtiq/DTIQ-Scripts/main/DTIQ-360installer.ps1'))" 
 
 
 ###### Vars#####

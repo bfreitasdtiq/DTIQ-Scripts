@@ -32,6 +32,8 @@ Invoke-WebRequest -Uri "$URL" -OutFile "$outputURL"
 
 Write-host "Starting EXE installation"
 ##Executing EXE
-"C:\Temp\360iQViewer.Setup.v.5.3.0.161.exe" /passive /quiet
+cd C:
+cd temp
+.\360iQViewer.Setup.v.5.3.0.161.exe /quiet /passive
 
 Stop-Transcript
